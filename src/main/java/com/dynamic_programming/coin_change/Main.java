@@ -31,7 +31,7 @@ Constraints:
 public class Main {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int result = solution.coinChange(new int[]{186,419,83,408}, 6249);
+        int result = solution.coinChange(new int[]{186, 419, 83, 408}, 6249);
 //        int result = solution.coinChange(new int[]{4,2}, 4);
         System.out.println(result);
     }
